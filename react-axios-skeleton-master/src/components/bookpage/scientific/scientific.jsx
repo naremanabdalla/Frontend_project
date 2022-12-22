@@ -5,7 +5,7 @@ const scientific=[
         image: "./img1.jpg",
         BookName: "كوكبنا",
         BookAuthor: "كيث سكولي و ألاستير فوذرجيل",
-        Price:"٤٩٢٫٠٠ ج.م.‏",
+        Price:"٤٩٢٫٠٠ ج.م",
       },
     
       {
@@ -13,7 +13,7 @@ const scientific=[
         image: "./img2.jpg",
         BookName: "الذكاء الاصطناعي والروبوتات",
         BookAuthor: "مارتن فورد",
-        Price: "٢٩٦٫٠٠ ج.م.‏ ",
+        Price: "٢٩٦٫٠٠ ج.م ",
       },
     
       {
@@ -29,7 +29,7 @@ const scientific=[
         image: "./img4.jpg",
         BookName: "العلم الزائف",
         BookAuthor: "بن جولديكر",
-        Price: "١٧٩٫٠٠ ج.م.‏",
+        Price: "١٧٩٫٠٠ ج.م",
       },
     
       {
@@ -37,7 +37,7 @@ const scientific=[
         image: "./img5.jpg",
         BookName: "الواقع ليس كما يبدو",
         BookAuthor: " كارلو روفيللي",
-        Price: "١٢٨٫٠٠ ج.م.‏",
+        Price: "١٢٨٫٠٠ ج.م",
       },
     
       {
@@ -45,7 +45,7 @@ const scientific=[
         image: "./img6.jpg",
         BookName: "كوكب الأرض",
         BookAuthor: "جون ريتشارد",
-        Price: "٤٥٫٠٠ ج.م.",
+        Price: "٤٥٫٠٠ ج.م",
       },
 
 

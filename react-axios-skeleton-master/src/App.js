@@ -3,8 +3,8 @@ import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import * as ROUTES from './constants/routes';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import BookCard from './components/bookpage/BookCard';
-import CardsPage from './components/bookpage/CardsPage';
+import BookCard from './components/bookpage/scientific/BookCard';
+import CardsPage from './components/bookpage/scientific/CardsPage';
 function App() {
   return (
     <Router>

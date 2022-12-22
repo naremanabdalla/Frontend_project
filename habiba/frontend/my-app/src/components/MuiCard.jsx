@@ -12,18 +12,20 @@ import {Card ,Box,
 const MuiCard=()=>{
   
     return(
+      <>
        <Box width="300px">
 <Card>
   <CardContent>
     <Typography gutterBottom variant='h5' component='div'>
 BookName
     </Typography>
-    <Typography variant='h4' color='text.secondary'>BookAuthor</Typography>
+    <Typography variant='h4' color='secondary'>BookAuthor</Typography>
   </CardContent>
 </Card>
 
 
        </Box>
+       </>
     )
 }
 export default MuiCard;
