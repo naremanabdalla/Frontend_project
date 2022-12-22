@@ -1,4 +1,4 @@
-const scientific=[
+const data1=[
 
     {
         id: "1",
@@ -48,8 +48,5 @@ const scientific=[
         Price: "٤٥٫٠٠ ج.م.",
       },
 
-
-
-
 ]
-export default scientific;
+export default data1;

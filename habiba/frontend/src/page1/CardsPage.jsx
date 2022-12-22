@@ -1,7 +1,5 @@
 import { react, uesState } from "react";
 
-import useStyles from "./Style";
-import scientific from "./scientific/scientific";
 import {
   Grid,
   Card,
@@ -13,6 +11,7 @@ import {
   Button,
 } from "@mui/material";
 import { useState } from "react";
+import data1 from "./data1";
 
 const CardsPage = () => {
   //const [data,setData] = useState(scientific);
@@ -20,22 +19,22 @@ const CardsPage = () => {
   return (
     <>
       <Grid container>
-        {scientific.map((data) => (
-          <Grid item Key={data.id}>
+       
+          <Grid item >
             <Card sx={{ maxwidth: 345 }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
                   height="140"
-                  image={data.image}
+                  image="./img1.jpg"
                   alt="green iguana"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    {data.BookName}
-                  </Typography>
+                    lknkj
+                                      </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    {data.BookAuthor}
+                    nkjnjhbh
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -46,7 +45,6 @@ const CardsPage = () => {
               </CardActions>
             </Card>
           </Grid>
-        ))}
       </Grid>
     </>
   );
