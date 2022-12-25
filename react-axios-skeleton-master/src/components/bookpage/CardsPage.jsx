@@ -1,6 +1,6 @@
 import { react } from "react";
 
-import useStyles from "../Style";
+import useStyles from "./Style";
 import scientific from './scientific';
 import BookCard from "./BookCard";
 import {

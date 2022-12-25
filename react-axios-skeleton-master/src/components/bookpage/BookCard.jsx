@@ -1,18 +1,15 @@
 import React from "react";
-
-import {CardActionArea,CardMedia,CardContent,Card,Typography,CardActions,Button}from "@mui/material";
-const BookCard=({id,BookAuthor,BookName,Price,image})=>{
+import useStyles from "./Style";
+import {CardActionArea,CardMedia,CardContent,Card,Typography,CardActions,Button}from "@material-ui/core";
+const BookCard=({BookAuthor,BookName,Price,image})=>{
+  const classes=useStyles();
 return(
 <>
-<Card sx={{ maxwidth: 345 }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image={image}
-                  alt="green iguana"
-                />
-                <CardContent>
+<Card  className={classes.card}>
+                <div style={{width:"100%" ,height:"50%"}}>
+                <img className={classes.cardMedia} src={image} alt={BookName}></img>
+                </div>
+                <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="div">
                     {BookName}
                   </Typography>
@@ -21,9 +18,8 @@ return(
                   </Typography>
                   <Typography>{Price}</Typography>
                 </CardContent>
-              </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" variant="contained">
                   Add to card
                 </Button>
               </CardActions>
