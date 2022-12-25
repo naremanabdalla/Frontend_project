@@ -76,7 +76,7 @@ const homepage = () => {
                             align="center"
                             color='textPrimary'
                             gutterBottom>
-                            bookSky Store
+                            BookSky Store
                         </Typography>
                         <Typography variant='h4'
                             align="center"

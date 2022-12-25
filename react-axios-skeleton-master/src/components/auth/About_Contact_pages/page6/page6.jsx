@@ -18,7 +18,7 @@ const page6 = () => {
         <>
             <AppBar position="static">
                 <Toolbar>
-                    <b className='title'>Novels</b>
+                    <b className='title'>BookSky</b>
                     <Toolbar />
                     <Link href={ROUTES.page3} variant="body2">
                         <Button >Psychology</Button>
