@@ -57,6 +57,50 @@ const page3 = () => {
                     ))}
                 </Grid>
             </Container>
+            <div style={{
+                background: "#848482",
+                padding: "20px",
+                margin: "5px",
+            }}>
+                <Container maxWidth="9g" style={{ marginTop: "10px" }}>
+                    <Typography variant='h6'
+                        align="left"
+                        color='textPrimary'
+                        gutterBottom>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>instractions</td>
+                                    <td>Company</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><Link href={ROUTES.Contact_us} variant="body2" color='inherit'>Terms of service</Link></td>
+                                    <td><Link href={ROUTES.Contact_us} variant="body2" color='inherit'>contact us</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright </Link></td>
+                                    <td><Link href={ROUTES.About_us} variant="body2" color='inherit'>About us</Link></td>
+                                </tr>
+                                <tr>
+                                    <td><Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </Typography>
+                    <div style={{ padding: "20px", margin: "5px" }}>
+                        <Container maxWidth="9g" >
+                            <Typography variant='h7'
+                                align="center"
+                                color='textPrimary'
+                                gutterBottom>
+                                All rights reserved to BookSky 2021-2022 - by our teams
+                            </Typography>
+                        </Container>
+                    </div>
+                </Container>
+            </div>
         </>
     );
 };
