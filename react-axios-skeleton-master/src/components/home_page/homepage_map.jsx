@@ -1,5 +1,5 @@
 import React from 'react'
-import UseStyles from '../../Style'
+import UseStyles from './Style'
 import homepage_array from './homepage_array'
 import {
     Typography,
@@ -11,6 +11,7 @@ import {
     Toolbar,
     Card,
     Box,
+    IconButton,
 } from '@material-ui/core'
 import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
@@ -28,7 +29,7 @@ const homepage_map = ({ id, cardName, image, links }) => {
                         <LocalLibraryIcon></LocalLibraryIcon>
                     </IconButton> */}
                     <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
-                        book store
+                        BookSky store
                     </Typography>
                     <Grid >
                         <Toolbar >

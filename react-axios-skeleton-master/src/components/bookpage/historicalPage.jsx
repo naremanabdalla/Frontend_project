@@ -12,25 +12,20 @@ const Historical = () => {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <b className="title">BookSky</b>
-
-          <Link href={ROUTES.page3} variant="body2">
-            <Button>Novels</Button>
+          <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
+            BookSky store
+          </Typography>
+          <Link href={ROUTES.Contact_us} variant="body2">
+            <Button variant="text" color="success" >contactus</Button>
           </Link>
-          <Link href={ROUTES.page2} variant="body2">
-            <Button>Literature</Button>
+          <Link href={ROUTES.About_us} variant="body2">
+            <Button variant="text" color="success" >Aboutus</Button>
           </Link>
-          <Link href={ROUTES.page6} variant="body2">
-            <Button>Psychology</Button>
+          <Link href={ROUTES.SIGN_IN} variant="body2">
+            <Button variant="text" color="success">Signin</Button>
           </Link>
-          <Link href={ROUTES.Historical} variant="body2">
-            <Button>Historical</Button>
-          </Link>
-          <Link href={ROUTES.Languages} variant="body2">
-            <Button>Languages</Button>
-          </Link>
-          <Link href={ROUTES.Scientific} variant="body2">
-            <Button>Science</Button>
+          <Link href={ROUTES.SIGN_UP} variant="body2">
+            <Button variant="text" color="success">register</Button>
           </Link>
         </Toolbar>
       </AppBar>

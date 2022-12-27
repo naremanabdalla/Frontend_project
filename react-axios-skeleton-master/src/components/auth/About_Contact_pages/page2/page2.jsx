@@ -18,22 +18,20 @@ const page2 = () => {
         <>
             <AppBar position="static">
                 <Toolbar>
-                    <b className='title'> BookSky</b>
-                    <Toolbar />
-                    <Link href={ROUTES.page3} variant="body2">
-                        <Button >Psychology</Button>
+                    <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
+                        BookSky store
+                    </Typography>
+                    <Link href={ROUTES.Contact_us} variant="body2">
+                        <Button variant="text" color="success" >contactus</Button>
                     </Link>
-                    <Link href={ROUTES.page6} >
-                        <Button >Novels</Button>
+                    <Link href={ROUTES.About_us} variant="body2">
+                        <Button variant="text" color="success" >Aboutus</Button>
                     </Link>
-                    <Link href={ROUTES.Historical} >
-                        <Button >Historical Book</Button>
+                    <Link href={ROUTES.SIGN_IN} variant="body2">
+                        <Button variant="text" color="success">Signin</Button>
                     </Link>
-                    <Link href={ROUTES.Scientific} >
-                        <Button >Scientific Book</Button>
-                    </Link>
-                    <Link href={ROUTES.Languages} >
-                        <Button >Languages</Button>
+                    <Link href={ROUTES.SIGN_UP} variant="body2">
+                        <Button variant="text" color="success">register</Button>
                     </Link>
                 </Toolbar>
             </AppBar>
