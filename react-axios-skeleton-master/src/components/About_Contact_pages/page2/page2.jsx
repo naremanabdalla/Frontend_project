@@ -1,8 +1,8 @@
 import { makeStyles } from '@material-ui/styles';
 import Link from "@material-ui/core/Link";
-import * as ROUTES from '../../../../constants/routes';
+import * as ROUTES from '../../../constants/routes';
 import date from './page2_date';
-import { AppBar, MenuItem, Toolbar, Container, Card, CardMedia, CardContent, CardActions, Button, Typography } from "@material-ui/core";
+import { AppBar , Toolbar, Container, Card, CardMedia, CardContent, CardActions, Button, Typography } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
 const useStyles = makeStyles({
     Card: { height: "80%", display: "flex", flexDirection: "column", padding: "25px 25px" }
@@ -47,7 +47,8 @@ const page2 = () => {
                                     <Typography>{page2_date.Another}</Typography>
                                     <Typography>{page2_date.price}</Typography>
                                     <CardActions className={classes.CardActions}>
-                                        <Button size='small' color='primary' variant="contained">Add To Card</Button>
+                                        <Button size='small' color='primary' >Add To Card</Button>
+                                        <Button size='small' color='primary' >details</Button>
                                     </CardActions>
                                 </CardContent>
                             </Card>

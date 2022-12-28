@@ -1,4 +1,4 @@
-import { Image } from '@material-ui/icons';
+// import { Image } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/styles'
 import books2 from "./books2.jpg"
 const UseStyles = makeStyles((theme) => ({

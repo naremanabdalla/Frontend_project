@@ -45,6 +45,9 @@ const homepage_map = ({ id, cardName, image, links }) => {
                             <Link href={ROUTES.SIGN_UP} variant="body2">
                                 <Button variant="text" color="success">register</Button>
                             </Link>
+                            <Link href={ROUTES.profile} variant="body2">
+                                <Button variant="text" color="success">profile</Button>
+                            </Link>
                             {/* <IconButton color='inherit' aria-label="add to shopping cart">
                                 <AddShoppingCartIcon />
                             </IconButton> */}

@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/styles';
 import date from './page3_date';
 import Link from "@material-ui/core/Link";
-import * as ROUTES from '../../../../constants/routes';
+import * as ROUTES from '../../../constants/routes';
 import { AppBar, MenuItem, Toolbar, Container, Card, CardMedia, CardContent, CardActions, Button, Typography } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
 const useStyles = makeStyles({
@@ -47,7 +47,8 @@ const page3 = () => {
                                     <Typography>{page3_date.Another}</Typography>
                                     <Typography>{page3_date.price}</Typography>
                                     <CardActions className={classes.CardActions}>
-                                        <Button size='small' color='primary' variant="contained">Add To Card</Button>
+                                        <Button size='small' color='primary' >Add To Card</Button>
+                                        <Button size='small' color='primary' >details</Button>
                                     </CardActions>
                                 </CardContent>
                             </Card>
