@@ -1,6 +1,8 @@
 import React from "react";
 import useStyles from "./Style";
-import { CardActionArea, CardMedia, CardContent, Card, Typography, CardActions, Button } from "@material-ui/core";
+import * as ROUTES from '../../constants/routes';
+import ScientificDetail from "./scientificDetail";
+import { CardActionArea, CardMedia, CardContent, Card, Typography, CardActions, Button,Link } from "@material-ui/core";
 const BookCard = ({ BookAuthor, BookName, Price, image }) => {
   const classes = useStyles();
   return (
@@ -23,6 +25,14 @@ const BookCard = ({ BookAuthor, BookName, Price, image }) => {
           <Button size="small" >
             Add to card
           </Button>
+          
+          <Link href={ROUTES.ScientificDetail} variant="body2">
+
+          <Button size="small" >
+            Details
+          </Button>
+          </Link>
+        
         </CardActions>
         
       </Card>
