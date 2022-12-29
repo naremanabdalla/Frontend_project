@@ -22,6 +22,12 @@ import p3 from './components/bookpage/pages/p3';
 import p4 from './components/bookpage/pages/p4';
 import p5 from './components/bookpage/pages/p5';
 import p6 from './components/bookpage/pages/p6';
+import p1_1 from './components/bookpage/pages/p1_1';
+import p2_1 from './components/bookpage/pages/p2_1';
+import p3_1 from './components/bookpage/pages/p3_1';
+import p4_1 from './components/bookpage/pages/p4_1';
+import p5_1 from './components/bookpage/pages/p5_1';
+import p6_1 from './components/bookpage/pages/p6_1';
 
 
 function App() {
@@ -50,6 +56,12 @@ function App() {
         <Route path={ROUTES.p4} component={p4} />
         <Route path={ROUTES.p5} component={p5} />
         <Route path={ROUTES.p6} component={p6} />
+        <Route path={ROUTES.p1_1} component={p1_1} />
+        <Route path={ROUTES.p2_1} component={p2_1} />
+        <Route path={ROUTES.p3_1} component={p3_1} />
+        <Route path={ROUTES.p4_1} component={p4_1} />
+        <Route path={ROUTES.p5_1} component={p5_1} />
+        <Route path={ROUTES.p6_1} component={p6_1} />
 
 
       </Switch>

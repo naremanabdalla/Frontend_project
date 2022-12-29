@@ -54,7 +54,9 @@ const page2 = () => {
                                     <Typography>{page2_date.price}</Typography>
                                     <CardActions className={classes.CardActions}>
                                         <Button size='small' color='primary' >Add To Card</Button>
-                                        <Button size='small' color='primary' >details</Button>
+                                        <Link href={page2_date.Links} variant="body2">
+                                            <Button size='small' color='primary' >details</Button>
+                                        </Link>
                                     </CardActions>
                                 </CardContent>
                             </Card>
