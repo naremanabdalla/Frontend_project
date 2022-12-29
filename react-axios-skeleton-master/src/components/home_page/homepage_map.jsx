@@ -136,14 +136,9 @@ const homepage_map = () => {
                                 </Typography>
                             </ListItemText>
                             <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link>
-                                </Typography>
-                            </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright</Link>
-                                </Typography>
+                               
+                           
+                               
                             </ListItemText>
                         </List>
                     </Grid>

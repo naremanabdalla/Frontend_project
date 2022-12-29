@@ -1,9 +1,9 @@
 import { makeStyles } from '@material-ui/styles';
-import date from './page6_date';
 import Link from "@material-ui/core/Link";
 import * as ROUTES from '../../../constants/routes';
+import date from './page2_date';
 import {
-    AppBar, MenuItem, Toolbar, Container, Card, CardMedia, CardContent, CardActions, Button, Typography, Box,
+    AppBar, Toolbar, Container, Card, CardMedia, CardContent, CardActions, Button, Typography, Box,
     List,
     ListItemText,
 } from "@material-ui/core";
@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     , CardContent: { flexGrow: 1 }
     , cardGrid: { padding: "10px 0" }
 });
-const page6 = () => {
+const page2 = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const classes = useStyles();
 
@@ -43,20 +43,20 @@ const page6 = () => {
             </AppBar>
             < Container className={classes.cardGrid} maxWidth="md">
                 <Grid container spacing={4}>
-                    {date.map((page6_date) => (
-                        <Grid item key={page6_date.id}>
+                    {date.map((page2_date) => (
+                        <Grid item key={page2_date.id}>
                             <Card className={classes.Card}>
                                 <CardMedia className={classes.CardMedia}
-                                    image={page6_date.image} title="book"></CardMedia>
+                                    image={page2_date.image} title="book"></CardMedia>
                                 <CardContent className={classes.CardContent}>
-                                    <b><p>{page6_date.title}</p></b>
-                                    <Typography>{page6_date.Another}</Typography>
-                                    <Typography>{page6_date.price}</Typography>
+                                    <b><p>{page2_date.title}</p></b>
+                                    <Typography>{page2_date.Another}</Typography>
+                                    <Typography>{page2_date.price}</Typography>
+
                                     <CardActions className={classes.CardActions}>
                                         <Button size='small' color='primary' >Add To Card</Button>
-                                        <Link href={page6_date.Links3} variant="body2">
-
-                                        <Button size='small' color='primary'  onClick={() => alert('check your car')}>details</Button>
+                                        <Link href={page2_date.Links2} variant="body2">
+                                            <Button size='small' color='primary' >details</Button>
                                         </Link>
                                     </CardActions>
                                 </CardContent>
@@ -92,16 +92,8 @@ const page6 = () => {
                                     <Link href={ROUTES.About_us} variant="body2" color='inherit'>About us</Link>
                                 </Typography>
                             </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link>
-                                </Typography>
-                            </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright</Link>
-                                </Typography>
-                            </ListItemText>
+                            
+                                
                         </List>
                     </Grid>
                 </Grid>
@@ -110,4 +102,4 @@ const page6 = () => {
     );
 };
 
-export default page6;
+export default page2;

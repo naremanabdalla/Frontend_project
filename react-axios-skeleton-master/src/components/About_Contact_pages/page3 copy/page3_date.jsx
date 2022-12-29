@@ -5,49 +5,38 @@ const page3_date = [
         title : "استغفري لذنبك",
         image:"images/page3/book1.jpg",
         Another: "أريج الطيب",
-        price: "١٧٠٫٠٠ ج.م.",
-        Links3: "p1_2"
+        price: "١٧٠٫٠٠ ج.م."
     }, {
         id: 2,
         title : "عندما تزوج قيس ليلى",
         image:"images/page3/book2.jpg",
         Another:"ليلى الصقر",
-        price: "١٧٠٫٠٠ ج.م.",
-        Links3: "p2_2"
-
+        price: "١٧٠٫٠٠ ج.م."
     }, {
         id: 3,
         image: "images/page3/book3.jpg",
         title : "أطلس الحنين  ",
         Another: "أنورادا روي",
-        price: "٥٠٤٫٠٠ ج.م.",
-        Links3: "p3_2"
-
+        price: "٥٠٤٫٠٠ ج.م."
     }, {
         id: 4,
         image: "images/page3/book4.jpg",
         title : "وزارة السعادة القصوي",
 
         Another: "اوراندتي روي",
-        price: "٢٢٥٫٠٠ ج.م.‏",
-        Links3: "p4_2"
-
+        price: "٢٢٥٫٠٠ ج.م.‏"
     }, {
         id: 5,
         image:"images/page3/book5.jpg",
         title : "الأرض المطوية",
         Another: "أنورادا روي",
-        price: "٥٠٤٫٠٠ ج.م.‏",
-        Links3: "p5_2"
-
+        price: "٥٠٤٫٠٠ ج.م.‏"
     }, {
         id: 6,
         image:"images/page3/book6.jpg",
         title :"أدوات الكتاب",
         Another: "روي بيتر كلارك",
-        price: "٢٥١٫٠٠ ج.م.",
-        Links3: "p6_2"
-
+        price: "٢٥١٫٠٠ ج.م."
     }, {
         id: 7,
         image: "images/page3/book7.jpg",

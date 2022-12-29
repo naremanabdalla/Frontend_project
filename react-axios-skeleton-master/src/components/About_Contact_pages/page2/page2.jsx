@@ -54,7 +54,7 @@ const page2 = () => {
                                     <Typography>{page2_date.price}</Typography>
 
                                     <CardActions className={classes.CardActions}>
-                                        <Button size='small' color='primary' >Add To Card</Button>
+                                        <Button size='small' color='primary'  onClick={() => alert('check your car')}>Add To Card</Button>
                                         <Link href={page2_date.Links2} variant="body2">
                                             <Button size='small' color='primary' >details</Button>
                                         </Link>
@@ -92,16 +92,8 @@ const page2 = () => {
                                     <Link href={ROUTES.About_us} variant="body2" color='inherit'>About us</Link>
                                 </Typography>
                             </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link>
-                                </Typography>
-                            </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright</Link>
-                                </Typography>
-                            </ListItemText>
+                            
+                                
                         </List>
                     </Grid>
                 </Grid>

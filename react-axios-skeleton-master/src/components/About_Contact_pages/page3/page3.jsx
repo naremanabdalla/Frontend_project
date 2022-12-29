@@ -52,9 +52,13 @@ const page3 = () => {
                                     <b><p>{page3_date.title}</p></b>
                                     <Typography>{page3_date.Another}</Typography>
                                     <Typography>{page3_date.price}</Typography>
+
                                     <CardActions className={classes.CardActions}>
-                                        <Button size='small' color='primary' >Add To Card</Button>
+                                        <Button size='small' color='primary'  onClick={() => alert('check your car')} >Add To Card</Button>
+                                        <Link href={page3_date.Links3} variant="body2">
+
                                         <Button size='small' color='primary' >details</Button>
+                                        </Link>
                                     </CardActions>
                                 </CardContent>
                             </Card>
@@ -89,16 +93,7 @@ const page3 = () => {
                                     <Link href={ROUTES.About_us} variant="body2" color='inherit'>About us</Link>
                                 </Typography>
                             </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link>
-                                </Typography>
-                            </ListItemText>
-                            <ListItemText>
-                                <Typography lineHeight={2} variant="caption">
-                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright</Link>
-                                </Typography>
-                            </ListItemText>
+                           
                         </List>
                     </Grid>
                 </Grid>

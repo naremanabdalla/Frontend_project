@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/styles';
-import date from './page6_date';
+import date from './page3_date';
 import Link from "@material-ui/core/Link";
 import * as ROUTES from '../../../constants/routes';
 import {
@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     , CardContent: { flexGrow: 1 }
     , cardGrid: { padding: "10px 0" }
 });
-const page6 = () => {
+const page3 = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const classes = useStyles();
 
@@ -43,21 +43,18 @@ const page6 = () => {
             </AppBar>
             < Container className={classes.cardGrid} maxWidth="md">
                 <Grid container spacing={4}>
-                    {date.map((page6_date) => (
-                        <Grid item key={page6_date.id}>
+                    {date.map((page3_date) => (
+                        <Grid item key={page3_date.id}>
                             <Card className={classes.Card}>
                                 <CardMedia className={classes.CardMedia}
-                                    image={page6_date.image} title="book"></CardMedia>
+                                    image={page3_date.image} title="book"></CardMedia>
                                 <CardContent className={classes.CardContent}>
-                                    <b><p>{page6_date.title}</p></b>
-                                    <Typography>{page6_date.Another}</Typography>
-                                    <Typography>{page6_date.price}</Typography>
+                                    <b><p>{page3_date.title}</p></b>
+                                    <Typography>{page3_date.Another}</Typography>
+                                    <Typography>{page3_date.price}</Typography>
                                     <CardActions className={classes.CardActions}>
                                         <Button size='small' color='primary' >Add To Card</Button>
-                                        <Link href={page6_date.Links3} variant="body2">
-
-                                        <Button size='small' color='primary'  onClick={() => alert('check your car')}>details</Button>
-                                        </Link>
+                                        <Button size='small' color='primary' >details</Button>
                                     </CardActions>
                                 </CardContent>
                             </Card>
@@ -110,4 +107,4 @@ const page6 = () => {
     );
 };
 
-export default page6;
+export default page3;

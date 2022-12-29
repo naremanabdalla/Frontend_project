@@ -23,7 +23,7 @@ const BookCard = ({ BookAuthor, BookName, Price, image,Links }) => {
           <Typography>{Price}</Typography>
           </CardContent>
         <CardActions>
-          <Button size="small" >
+          <Button size="small" onClick={() => alert('check your car')}>
             Add to card
           </Button>
           

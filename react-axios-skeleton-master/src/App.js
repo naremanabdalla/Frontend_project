@@ -28,6 +28,21 @@ import p3_1 from './components/About_Contact_pages/page2/p3_1';
 import p4_1 from './components/About_Contact_pages/page2/p4_1';
 import p5_1 from './components/About_Contact_pages/page2/p5_1';
 import p6_1 from './components/About_Contact_pages/page2/p6_1';
+
+import p1_2 from './components/About_Contact_pages/page3/p1_2';
+import p2_2 from './components/About_Contact_pages/page3/p2_2';
+import p3_2 from './components/About_Contact_pages/page3/p3_2';
+import p4_2 from './components/About_Contact_pages/page3/p4_2';
+import p5_2 from './components/About_Contact_pages/page3/p5_2';
+import p6_2 from './components/About_Contact_pages/page3/p6_2';
+
+import p1_3 from './components/About_Contact_pages/page6/p1_3';
+import p2_3 from './components/About_Contact_pages/page6/p2_3';
+import p3_3 from './components/About_Contact_pages/page6/p3_3';
+import p4_3 from './components/About_Contact_pages/page6/p4_3';
+import p5_3 from './components/About_Contact_pages/page6/p5_3';
+import p6_3 from './components/About_Contact_pages/page6/p6_3';
+
 import p7 from './components/bookpage/pages/p7';
 import p8 from './components/bookpage/pages/p8';
 import p9 from './components/bookpage/pages/p9';
@@ -74,6 +89,20 @@ function App() {
         <Route path={ROUTES.p4_1} component={p4_1} />
         <Route path={ROUTES.p5_1} component={p5_1} />
         <Route path={ROUTES.p6_1} component={p6_1} />
+
+        <Route path={ROUTES.p1_2} component={p1_2} />
+        <Route path={ROUTES.p2_2} component={p2_2} />
+        <Route path={ROUTES.p3_2} component={p3_2} />
+        <Route path={ROUTES.p4_2} component={p4_2} />
+        <Route path={ROUTES.p5_2} component={p5_2} />
+        <Route path={ROUTES.p6_2} component={p6_2} />
+
+        <Route path={ROUTES.p1_3} component={p1_3} />
+        <Route path={ROUTES.p2_3} component={p2_3} />
+        <Route path={ROUTES.p3_3} component={p3_3} />
+        <Route path={ROUTES.p4_3} component={p4_3} />
+        <Route path={ROUTES.p5_3} component={p5_3} />
+        <Route path={ROUTES.p6_3} component={p6_3} />
 
         <Route path={ROUTES.p7} component={p7} />
         <Route path={ROUTES.p8} component={p8} />

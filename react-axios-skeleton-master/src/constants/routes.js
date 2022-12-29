@@ -43,4 +43,15 @@ export const p3_1 = '/p3_1';
 export const p4_1 = '/p4_1';
 export const p5_1 = '/p5_1';
 export const p6_1 = '/p6_1';
-
+export const p1_2 = '/p1_2';
+export const p2_2 = '/p2_2';
+export const p3_2 = '/p3_2';
+export const p4_2 = '/p4_2';
+export const p5_2 = '/p5_2';
+export const p6_2 = '/p6_2';
+export const p1_3 = '/p1_3';
+export const p2_3 = '/p2_3';
+export const p3_3 = '/p3_3';
+export const p4_3 = '/p4_3';
+export const p5_3 = '/p5_3';
+export const p6_3 = '/p6_3';
