@@ -19,7 +19,9 @@ const Scientific = () => {
       <AppBar position="static">
         <Toolbar>
           <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
-            BookSky store
+            <Link href={ROUTES.homepage_map} style={{ color: "#f8f8ff" }}>
+              BookSky store
+            </Link>
           </Typography>
           <Link href={ROUTES.Contact_us} variant="body2">
             <Button variant="text" color="success" >contactus</Button>
