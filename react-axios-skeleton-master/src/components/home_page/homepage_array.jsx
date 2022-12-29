@@ -1,19 +1,19 @@
 const homepage_array = [
     {
         id: "1",
-        cardName: "Literature Book",
+        cardName: "Literature ",
         image: "img_homepage/book_Lit1.jpg",
         links: "page2"
     },
     {
         id: "2",
-        cardName: "Historical Book",
+        cardName: "Historical ",
         image: "img_homepage/book_His1.jpg",
         links: "Historical"
     },
     {
         id: "3",
-        cardName: "Scientific Book",
+        cardName: "Scientific ",
         image: "img_homepage/book_sci1.jpg",
         links: "Scientific"
     },

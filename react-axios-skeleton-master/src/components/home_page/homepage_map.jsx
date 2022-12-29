@@ -12,21 +12,32 @@ import {
     Card,
     Box,
     IconButton,
+    List,
+    ListItemText,
+    colors,
 } from '@material-ui/core'
 import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
 import * as ROUTES from "../../constants/routes"
+import TurnedInIcon from '@mui/icons-material/TurnedIn';
+import BookmarksIcon from '@mui/icons-material/Bookmarks';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import { padding } from '@mui/system';
+import SvgIcon from '@mui/material/SvgIcon';
+import Icon from '@mui/material/Icon';
+// import ListItemButton from '@mui/icons-material'
+// import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCartIcon'
 
-const homepage_map = ({ id, cardName, image, links }) => {
+const homepage_map = ({ id, cardName, image, links, siz }) => {
     const classes = UseStyles();
-
     return (
         <div>
             <AppBar position="static">
                 <Toolbar>
+                    {/* <ListItemButton><AddShoppingCartIcon /></ListItemButton> */}
                     {/* <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
-                        <LocalLibraryIcon></LocalLibraryIcon>
+                        <TurnedInIcon></TurnedInIcon>
+                        <SvgIcon />
                     </IconButton> */}
                     <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
                         BookSky store
@@ -72,7 +83,7 @@ const homepage_map = ({ id, cardName, image, links }) => {
                 </Container>
             </div>
             < Container className={classes.cardGrid} maxWidth="md">
-                <Grid container spacing={4}>
+                <Grid container spacing={4} >
                     {homepage_array.map((homecard) => (
                         <Grid xs={6} sm={4} md={3} lg={4} height={'50px'} width={"100px"} item>
                             <Card className={classes.card} style={{ width: "30", height: "40" }}>
@@ -86,7 +97,8 @@ const homepage_map = ({ id, cardName, image, links }) => {
                                 </CardContent>
                                 <CardActions style={{ padding: '3px' }}>
                                     <Link href={homecard.links} variant="body2">
-                                        <Button size="small" color="primary">
+                                        <Button size="small" color="primary" >
+                                            {/* onClick={() => alert('check your car')} */}
                                             views
                                         </Button>
                                     </Link>
@@ -101,44 +113,41 @@ const homepage_map = ({ id, cardName, image, links }) => {
                 padding: "20px",
                 margin: "5px",
             }}>
-                <Container maxWidth="9g" style={{ marginTop: "10px" }}>
-                    <Typography variant='h6'
-                        align="left"
-                        color='textPrimary'
-                        gutterBottom>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <td>instractions</td>
-                                    <td>Company</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><Link href={ROUTES.Contact_us} variant="body2" color='inherit'>Terms of service</Link></td>
-                                    <td><Link href={ROUTES.Contact_us} variant="body2" color='inherit'>contact us</Link></td>
-                                </tr>
-                                <tr>
-                                    <td><Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright </Link></td>
-                                    <td><Link href={ROUTES.About_us} variant="body2" color='inherit'>About us</Link></td>
-                                </tr>
-                                <tr>
-                                    <td><Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </Typography>
-                    <div style={{ padding: "20px", margin: "5px" }}>
-                        <Container maxWidth="9g" >
-                            <Typography variant='h7'
-                                align="center"
-                                color='textPrimary'
-                                gutterBottom>
-                                All rights reserved to BookSky 2021-2022 - by our teams
-                            </Typography>
-                        </Container>
-                    </div>
-                </Container>
+
+                <Grid container spacing={2} justifyContent="center">
+                    <Grid item md={6} lg={4}>
+                        <Typography variant="body1">Information</Typography>
+                        <Typography variant="caption"> book sky store is a book store build in 20/Oct/2003
+                            we have more than ten shop around EGYPT, and we have more than 1000 employee work with us
+                            and we have more than 10000 book in our store </Typography>
+                    </Grid>
+                    <Box sx={{ mt: 4 }}></Box>
+                    <Grid item md={6} lg={2}>
+                        <Typography>Company</Typography>
+                        <List>
+                            <ListItemText>
+                                <Typography lineHeight={2} variant="caption">
+                                    <Link href={ROUTES.Contact_us} variant="body2" color='inherit'>contact us</Link>
+                                </Typography>
+                            </ListItemText>
+                            <ListItemText>
+                                <Typography lineHeight={2} variant="caption">
+                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>About us</Link>
+                                </Typography>
+                            </ListItemText>
+                            <ListItemText>
+                                <Typography lineHeight={2} variant="caption">
+                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Return policy</Link>
+                                </Typography>
+                            </ListItemText>
+                            <ListItemText>
+                                <Typography lineHeight={2} variant="caption">
+                                    <Link href={ROUTES.About_us} variant="body2" color='inherit'>Copyright</Link>
+                                </Typography>
+                            </ListItemText>
+                        </List>
+                    </Grid>
+                </Grid>
             </div>
         </div >
 
