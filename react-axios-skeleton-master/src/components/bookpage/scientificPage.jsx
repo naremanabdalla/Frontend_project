@@ -39,6 +39,37 @@ const Scientific = () => {
       </AppBar>
       <Container className={classes.cardGrid} maxWidth="md" >
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    
+     <Grid  padding={1} spacing={2} container  style={{marginTop:"130px"}}>
+        {scientificList.map((scientific) => (
+          <Grid xs={6}
+           sm={4}
+           md={3}
+           lg={4}
+          
+              item 
+               Key={scientific.id}>
+            <BookCard
+             id={scientific.id}
+            image={scientific.image}
+            BookAuthor={scientific.BookAuthor}
+            BookName={scientific.BookName}
+            Price={scientific.Price}
+            Links={scientific.Links}
+            
+            />
+
+          </Grid>
+        ))}
+        
+     </Grid>
+     </Container>
+     <div style={{
+=======
+>>>>>>> Stashed changes
 
 
         <Grid padding={1} spacing={2} container style={{ marginTop: "130px" }}>
@@ -63,6 +94,10 @@ const Scientific = () => {
         </Grid>
       </Container>
       <div style={{
+<<<<<<< Updated upstream
+=======
+>>>>>>> d99cf302f996f4242992e6fc4916e2cd12fe5c0b
+>>>>>>> Stashed changes
         background: "#848482",
         padding: "20px",
         margin: "5px",

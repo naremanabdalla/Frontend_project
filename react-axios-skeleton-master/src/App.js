@@ -8,6 +8,7 @@ import Contact_us from './components/About_Contact_pages/Contact_us/Contact_us'
 import About_us from './components/About_Contact_pages/About_us/About_us';
 import BookCard from './components/bookpage/BookCard';
 import CardsPage from './components/bookpage/CardsPage';
+import ScientificDetail from './components/bookpage/scientificDetail';
 import Scientific from './components/bookpage/scientificPage';
 import Historical from './components/bookpage/historicalPage';
 import Languages from './components/bookpage/languagesPage';
@@ -15,6 +16,14 @@ import page2 from './components/About_Contact_pages/page2/page2'
 import page3 from './components/About_Contact_pages/page3/page3';
 import page6 from './components/About_Contact_pages/page6/page6';
 import profile from './components/About_Contact_pages/profile/profile';
+import p1 from './components/bookpage/pages/p1';
+import p2 from './components/bookpage/pages/p2';
+import p3 from './components/bookpage/pages/p3';
+import p4 from './components/bookpage/pages/p4';
+import p5 from './components/bookpage/pages/p5';
+import p6 from './components/bookpage/pages/p6';
+
+
 function App() {
   return (
     <Router>
@@ -34,6 +43,14 @@ function App() {
         <Route path={ROUTES.page3} component={page3} />
         <Route path={ROUTES.page6} component={page6} />
         <Route path={ROUTES.profile} component={profile} />
+        <Route path={ROUTES.ScientificDetail} component={ScientificDetail} />
+        <Route path={ROUTES.p1} component={p1} />
+        <Route path={ROUTES.p2} component={p2} />
+        <Route path={ROUTES.p3} component={p3} />
+        <Route path={ROUTES.p4} component={p4} />
+        <Route path={ROUTES.p5} component={p5} />
+        <Route path={ROUTES.p6} component={p6} />
+
 
       </Switch>
 

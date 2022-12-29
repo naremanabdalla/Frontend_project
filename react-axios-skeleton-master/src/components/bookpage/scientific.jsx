@@ -6,6 +6,7 @@ const scientific = [
     BookName: "كوكبنا",
     BookAuthor: "كيث سكولي و ألاستير فوذرجيل",
     Price: "٤٩٢٫٠٠ ج.م",
+    Links:"p1"
   },
 
   {
@@ -14,6 +15,7 @@ const scientific = [
     BookName: "الذكاء الاصطناعي",
     BookAuthor: "مارتن فورد",
     Price: "٢٩٦٫٠٠ ج.م ",
+    Links:"p2"
   },
 
   {
@@ -22,6 +24,7 @@ const scientific = [
     BookName: "المرونة العصبية",
     BookAuthor: "محب كوستاندي",
     Price: "١٠٧٫٠٠ ج.م",
+    Links:"p3"
   },
 
   {
@@ -30,6 +33,7 @@ const scientific = [
     BookName: "العلم الزائف",
     BookAuthor: "بن جولديكر",
     Price: "١٧٩٫٠٠ ج.م",
+    Links:"p4"
   },
 
   {
@@ -38,6 +42,7 @@ const scientific = [
     BookName: "الواقع ليس كما يبدو",
     BookAuthor: " كارلو روفيللي",
     Price: "١٢٨٫٠٠ ج.م",
+    Links:"p5"
   },
 
   {
@@ -46,6 +51,7 @@ const scientific = [
     BookName: "كوكب الأرض",
     BookAuthor: "جون ريتشارد",
     Price: "٤٥٫٠٠ ج.م",
+    Links:"p6"
   },
 
 

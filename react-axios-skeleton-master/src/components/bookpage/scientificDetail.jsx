@@ -1,6 +1,7 @@
 import BookDetail from "./bookDetail";
 import {scientificDetail} from "./scientific"
 import scientific from "./scientific"
+
 const ScientificDetail=()=>{
     return(
         <div  Key={scientific.id}>
@@ -17,7 +18,6 @@ const ScientificDetail=()=>{
             aboutAuthor={scientific.BookAuthor}
             />
          
-      
 
         </div>
     )
