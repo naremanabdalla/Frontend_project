@@ -22,12 +22,24 @@ import p3 from './components/bookpage/pages/p3';
 import p4 from './components/bookpage/pages/p4';
 import p5 from './components/bookpage/pages/p5';
 import p6 from './components/bookpage/pages/p6';
-import p1_1 from './components/bookpage/pages/p1_1';
-import p2_1 from './components/bookpage/pages/p2_1';
-import p3_1 from './components/bookpage/pages/p3_1';
-import p4_1 from './components/bookpage/pages/p4_1';
-import p5_1 from './components/bookpage/pages/p5_1';
-import p6_1 from './components/bookpage/pages/p6_1';
+import p1_1 from './components/About_Contact_pages/page2/p1_1';
+import p2_1 from './components/About_Contact_pages/page2/p2_1';
+import p3_1 from './components/About_Contact_pages/page2/p3_1';
+import p4_1 from './components/About_Contact_pages/page2/p4_1';
+import p5_1 from './components/About_Contact_pages/page2/p5_1';
+import p6_1 from './components/About_Contact_pages/page2/p6_1';
+import p7 from './components/bookpage/pages/p7';
+import p8 from './components/bookpage/pages/p8';
+import p9 from './components/bookpage/pages/p9';
+import p10 from './components/bookpage/pages/p10';
+import p11 from './components/bookpage/pages/p11';
+import p12 from './components/bookpage/pages/p12';
+import p13 from './components/bookpage/pages/p13';
+import p14 from './components/bookpage/pages/p14';
+import p15 from './components/bookpage/pages/p15';
+import p16 from './components/bookpage/pages/p16';
+import p17 from './components/bookpage/pages/p17';
+import p18 from './components/bookpage/pages/p18';
 
 
 function App() {
@@ -62,6 +74,19 @@ function App() {
         <Route path={ROUTES.p4_1} component={p4_1} />
         <Route path={ROUTES.p5_1} component={p5_1} />
         <Route path={ROUTES.p6_1} component={p6_1} />
+
+        <Route path={ROUTES.p7} component={p7} />
+        <Route path={ROUTES.p8} component={p8} />
+        <Route path={ROUTES.p9} component={p9} />
+        <Route path={ROUTES.p10} component={p10} />
+        <Route path={ROUTES.p11} component={p11} />
+        <Route path={ROUTES.p12} component={p12} />
+        <Route path={ROUTES.p13} component={p13} />
+        <Route path={ROUTES.p14} component={p14} />
+        <Route path={ROUTES.p15} component={p15} />
+        <Route path={ROUTES.p16} component={p16} />
+        <Route path={ROUTES.p17} component={p17} />
+        <Route path={ROUTES.p18} component={p18} />
 
 
       </Switch>

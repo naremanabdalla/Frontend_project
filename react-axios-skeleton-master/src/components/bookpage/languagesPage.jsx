@@ -50,6 +50,8 @@ const Languages = () => {
                 BookAuthor={languages.BookAuthor}
                 BookName={languages.BookName}
                 Price={languages.Price}
+                Links={languages.Links}
+
               />
             </Grid>
           ))}

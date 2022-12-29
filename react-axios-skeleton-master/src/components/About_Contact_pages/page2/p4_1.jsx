@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import useStyles from "../Style";
+import useStyles from "../../bookpage/Style";
 import {Button,Card,Container,CardActionArea,CardActions,CardContent,CardMedia,Typography} from '@material-ui/core';
 import { Link, Routes } from "react-router-dom";
 
@@ -13,7 +13,7 @@ return(
 <Container  className={classes.cardGrid} maxWidth="md"  >
 <Card className={classes.card}>
         <div style={{height:"65%",width:"40%"}}>
-          <img className={classes.cardMedia} src="/images/scientific/img4.jpg" alt={BookName}></img>
+          <img className={classes.cardMedia} src="images/page2/book4.jpg" alt={BookName}></img>
         </div>
         <CardContent className={classes.cardContent}  >
             <Typography>{BookName}</Typography>

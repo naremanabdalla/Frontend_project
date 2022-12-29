@@ -50,6 +50,8 @@ const Historical = () => {
                 BookAuthor={historical.BookAuthor}
                 BookName={historical.BookName}
                 Price={historical.Price}
+                Links={historical.Links}
+
               />
             </Grid>
           ))}

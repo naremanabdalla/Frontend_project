@@ -5,6 +5,8 @@ const languagesList = [
     BookName: "The Giver of Stars",
     BookAuthor: "Amol Rajan",
     Price: "٤٦٨٫٠٠ ج.م",
+    Links:"p13"
+
   },
 
   {
@@ -13,6 +15,8 @@ const languagesList = [
     BookName: "The Social CEO",
     BookAuthor: "Damian Corbet",
     Price: "٥١٢٫٠٠ ج.م",
+    Links:"p14"
+
   },
 
   {
@@ -21,6 +25,8 @@ const languagesList = [
     BookName: "The Secret",
     BookAuthor: "Rhonda Byrne",
     Price: "  ٦٣٩٫٠٠ ج.م",
+    Links:"p15"
+
   },
 
   {
@@ -29,6 +35,8 @@ const languagesList = [
     BookName: "The Queen's Secret",
     BookAuthor: "Melissa de la Cruz",
     Price: "٤٠٩٫٠٠ ج.م",
+    Links:"p16"
+
   },
 
   {
@@ -37,6 +45,8 @@ const languagesList = [
     BookName: "Written In Bone",
     BookAuthor: "Sue Black",
     Price: "٤٥٥٫٠٠ ج.م",
+    Links:"p17"
+
   },
 
   {
@@ -45,6 +55,8 @@ const languagesList = [
     BookName: "Rethink",
     BookAuthor: "Amol Rajan",
     Price: "  ٤٦٨٫٠٠ ج.م",
+    Links:"p18"
+
   },
 ];
 export default languagesList;

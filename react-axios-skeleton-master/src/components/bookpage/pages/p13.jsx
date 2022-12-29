@@ -13,7 +13,7 @@ return(
 <Container  className={classes.cardGrid} maxWidth="md"  >
 <Card className={classes.card}>
         <div style={{height:"65%",width:"40%"}}>
-          <img className={classes.cardMedia} src="/images/historical/img1.jpg" alt={BookName}></img>
+          <img className={classes.cardMedia} src="/images/languages/img1.jpg" alt={BookName}></img>
         </div>
         <CardContent className={classes.cardContent}  >
             <Typography>{BookName}</Typography>

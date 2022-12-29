@@ -6,6 +6,8 @@ const historicalList=[
         BookName: "بيوت القاهرة",
         BookAuthor: "سامح الزهار",
         Price: "٣١٫٠٠ ج.م",
+        Links:"p7"
+
       },
     
       {
@@ -14,6 +16,8 @@ const historicalList=[
         BookName: "النقود العربية وعلم النميات",
         BookAuthor: "أنستاس الكرملي",
         Price: "٤١٠٫٠٠ ج.م",
+        Links:"p8"
+
       },
     
       {
@@ -21,7 +25,9 @@ const historicalList=[
         image: "images/historical/img3.jpg",
         BookName: "تاريخ العالم",
         BookAuthor:"زاهي حواس",
-        Price: "٢١٣٫٠٠ ج.م"
+        Price: "٢١٣٫٠٠ ج.م",
+        Links:"p9"
+
       },
     
       {
@@ -30,6 +36,8 @@ const historicalList=[
         BookName: "مقتطفات من تاريخ العالم ",
         BookAuthor: "جمال الكاشف",
         Price: "٤٥٫٠٠ ج.م",
+        Links:"p10"
+
       },
     
       {
@@ -38,6 +46,8 @@ const historicalList=[
         BookName: "الحرب السيبرانية",
         BookAuthor: "منصور عبد الحكيم",
         Price: "١٠٧٫٠٠ ج.م",
+        Links:"p11"
+
       },
     
       {
@@ -46,6 +56,8 @@ const historicalList=[
         BookName: "للتاريخ أقوال أخرى",
         BookAuthor: "أحمد المنزلاوى",
         Price: "٩٤٫٠٠ ج.م",
+        Links:"p12"
+
       },
 
 

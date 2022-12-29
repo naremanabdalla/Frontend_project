@@ -11,5 +11,6 @@ const useStyles = makeStyles({
     cardMedia:{width:"100%" ,height:"100%"},
     cardContent:{width:"100%",height:"20%"},
     cardGrid:{padding:"10px 0"}
+    
   });
   export default useStyles;

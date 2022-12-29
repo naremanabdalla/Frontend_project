@@ -19,16 +19,16 @@ import {
 import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
 import * as ROUTES from "../../constants/routes"
-import TurnedInIcon from '@mui/icons-material/TurnedIn';
-import BookmarksIcon from '@mui/icons-material/Bookmarks';
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+//import TurnedInIcon from '@mui/icons-material/TurnedIn';
+//import BookmarksIcon from '@mui/icons-material/Bookmarks';
+//import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import { padding } from '@mui/system';
-import SvgIcon from '@mui/material/SvgIcon';
-import Icon from '@mui/material/Icon';
+//import SvgIcon from '@mui/material/SvgIcon';
+//import Icon from '@mui/material/Icon';
 // import ListItemButton from '@mui/icons-material'
 // import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCartIcon'
 
-const homepage_map = ({ id, cardName, image, links, siz }) => {
+const homepage_map = () => {
     const classes = UseStyles();
     return (
         <div>
