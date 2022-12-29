@@ -53,13 +53,39 @@ const historicalList=[
       {
         id: "6",
         image: "images/historical/img6.jpg",
-        BookName: "للتاريخ أقوال أخرى",
+        BookName: "للتاريخ اقوال اخرى",
         BookAuthor: "أحمد المنزلاوى",
         Price: "٩٤٫٠٠ ج.م",
         Links:"p12"
 
       },
+      {
+        id: "7",
+        image: "images/historical/img7.jpg",
+        BookName: "حضاره العرب ",
+        BookAuthor: "أحمد المنزلاوى",
+        Price: "٩٤٫٠٠ ج.م",
+        Links:"p12"
 
+      },
+      {
+        id: "8",
+        image: "images/historical/img8.jpg",
+        BookName:"تاريخ الدوله العثمانيه",
+        BookAuthor: "أحمد المنزلاوى",
+        Price: "٩٤٫٠٠ ج.م",
+        Links:"p12"
+
+      },
+      {
+        id: "9",
+        image: "images/historical/img9.jpg",
+        BookName: "قصص من التاريخ",
+        BookAuthor: "أحمد المنزلاوى",
+        Price: "٩٤٫٠٠ ج.م",
+        Links:"p12"
+
+      },
 
 ]
 export default historicalList;

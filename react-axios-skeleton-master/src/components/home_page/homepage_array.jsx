@@ -35,6 +35,24 @@ const homepage_array = [
         image: "img_homepage/book_Lang1.jpg",
         links: "Languages"
     },
+    {
+        id: "7",
+        cardName: "religious",
+        image: "img_homepage/book8.jpg",
+        links: "page3"
+    },
+    {
+        id: "8",
+        cardName: "Poetry",
+        image: "img_homepage/book7.jpg",
+        links: "page6"
+    },
+    {
+        id: "9",
+        cardName: "Business Administration",
+        image: "img_homepage/book9.jpg",
+        links: "Languages"
+    }
 ]
 
 export default homepage_array;

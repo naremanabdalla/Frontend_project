@@ -1,6 +1,8 @@
 import { makeStyles } from "@material-ui/core/styles";
 import * as React from 'react';
-import {Container, Button, TextField, Card } from '@material-ui/core';
+import * as ROUTES from '../../../constants/routes';
+
+import {Container, Button, TextField, Card,Grid,Typography ,Toolbar,Link,AppBar} from '@material-ui/core';
 const useStyles = makeStyles(() => ({
     paper: {
       alignItems: "center"
@@ -18,6 +20,42 @@ const Contact_us = () => {
     return (
 
         <>
+         <AppBar position="static">
+         <Toolbar>
+                    {/* <ListItemButton><AddShoppingCartIcon /></ListItemButton> */}
+                    {/* <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
+                        <TurnedInIcon></TurnedInIcon>
+                        <SvgIcon />
+                    </IconButton> */}
+                    <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
+                    <Link href={ROUTES.homepage_map} style={{ color: "#f8f8ff" }}>
+                            BookSky store
+                        </Link>
+                            </Typography>
+                    <Grid >
+                        <Toolbar >
+                            <Link href={ROUTES.Contact_us} variant="body2">
+                                <Button variant="text" color="success" >contactus</Button>
+                            </Link>
+                            <Link href={ROUTES.About_us} variant="body2">
+                                <Button variant="text" color="success" >Aboutus</Button>
+                            </Link>
+                            <Link href={ROUTES.SIGN_IN} variant="body2">
+                                <Button variant="text" color="success">Signin</Button>
+                            </Link>
+                            <Link href={ROUTES.SIGN_UP} variant="body2">
+                                <Button variant="text" color="success">register</Button>
+                            </Link>
+                            <Link href={ROUTES.profile} variant="body2">
+                                <Button variant="text" color="success">profile</Button>
+                            </Link>
+                            {/* <IconButton color='inherit' aria-label="add to shopping cart">
+                                <AddShoppingCartIcon />
+                            </IconButton> */}
+                        </Toolbar>
+                    </Grid>
+                </Toolbar>
+                </AppBar>
 < Container className={classes.cardGrid}>
             <h2 className='contact' align="center" >
                 <b> Contact_us </b>

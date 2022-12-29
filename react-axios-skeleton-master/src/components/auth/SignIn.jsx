@@ -12,6 +12,8 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import * as ROUTES from "../../constants/routes";
+import { Card ,Toolbar,AppBar} from '@material-ui/core';
+
 
 import AxiosContext from "../../Services/context";
 
@@ -88,6 +90,43 @@ export default function SignIn({ history }) {
   const classes = useStyles();
 
   return (
+    <>
+    <AppBar position="static">
+         <Toolbar>
+                    {/* <ListItemButton><AddShoppingCartIcon /></ListItemButton> */}
+                    {/* <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
+                        <TurnedInIcon></TurnedInIcon>
+                        <SvgIcon />
+                    </IconButton> */}
+                   <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} style={{ flex: 1 }}>
+            <Link href={ROUTES.homepage_map} style={{ color: "#f8f8ff" }}>
+              BookSky store
+            </Link>
+          </Typography>
+                    <Grid >
+                        <Toolbar >
+                            <Link href={ROUTES.Contact_us} variant="body2">
+                                <Button variant="text" color="success" >contactus</Button>
+                            </Link>
+                            <Link href={ROUTES.About_us} variant="body2">
+                                <Button variant="text" color="success" >Aboutus</Button>
+                            </Link>
+                            <Link href={ROUTES.SIGN_IN} variant="body2">
+                                <Button variant="text" color="success">Signin</Button>
+                            </Link>
+                            <Link href={ROUTES.SIGN_UP} variant="body2">
+                                <Button variant="text" color="success">register</Button>
+                            </Link>
+                            <Link href={ROUTES.profile} variant="body2">
+                                <Button variant="text" color="success">profile</Button>
+                            </Link>
+                            {/* <IconButton color='inherit' aria-label="add to shopping cart">
+                                <AddShoppingCartIcon />
+                            </IconButton> */}
+                        </Toolbar>
+                    </Grid>
+                </Toolbar>
+                </AppBar>
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -157,5 +196,6 @@ export default function SignIn({ history }) {
         <Copyright />
       </Box>
     </Container>
+    </>
   );
 }
